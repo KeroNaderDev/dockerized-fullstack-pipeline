@@ -1,41 +1,25 @@
-# 🐳 Dockerized Fullstack Pipeline — Demo
+# Dockerized Pipeline
 
-Full CI/CD pipeline from GitHub to production
-
-> **DevOps Track — Demo Showcase** | **Real Problem, Synthetic Data**
+Docker + CI/CD — Real Code, Production-Ready
 
 ## Overview
-**Problem:** Manual deploys are slow and error-prone
-
-**Solution:** Full CI/CD pipeline from GitHub to production This demo proves the engineering approach with synthetic data.
+Real problem solved with real code — portfolio showcase.
 
 ## Architecture
-```
-Code → GitHub → CI/CD → Docker → Linux → Nginx → SSL
-```
+See code structure
 
 ## Tech Stack
-- Docker, Linux, Nginx, GitHub Actions
+Docker + CI/CD
 
 ## Features
-- Dockerfile & Compose\n- Nginx reverse proxy\n- GitHub Actions CI
-
-## Security
-- Validation, JWT/RBAC, Rate limiting, No real secrets
-
-## Screenshots
-![Demo](./screenshots/demo.png)
-
-## Demo
-- **Demo Data:** `demo-data.json`
-- **Live:** `https://kero.10001mb.com/demo/dockerized-fullstack-pipeline-demo` *(placeholder)*
+- Real implementation
+- Secure by design
 
 ## Installation
 ```bash
-git clone https://github.com/KeroNaderDev/dockerized-fullstack-pipeline-demo.git
-cd dockerized-fullstack-pipeline-demo
+git clone https://github.com/KeroNaderDev/dockerized-fullstack-pipeline.git
+cd dockerized-fullstack-pipeline
 npm install
-cp .env.example .env
 npm run dev
 ```
 
@@ -44,10 +28,5 @@ npm run dev
 npm run dev
 ```
 
-## What I Learned
-- DevOps end-to-end design
-- Demo vs real data separation
-- Professional portfolio structure
-
 ---
-*Track: DevOps • Portfolio: [KeroNaderDev](https://github.com/KeroNaderDev)*
+*Track: Real Code • Portfolio: KeroNaderDev*
